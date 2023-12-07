@@ -688,7 +688,6 @@ body{
 .about {
     margin-top: 140px;
     padding: 0 20px;
-    margin-bottom: 200px;
 }
 .about_row {
     display: flex;
@@ -869,7 +868,7 @@ body{
     }
     .slider_cart {
         min-height: 0px;
-         padding: 10px 10px;
+         padding: 20px 20px;
          border-radius: 0px;
     }
     .about_cart-row {
