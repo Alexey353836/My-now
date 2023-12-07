@@ -688,6 +688,7 @@ body{
 .about {
     margin-top: 140px;
     padding: 0 20px;
+    margin-bottom: 100px;
 }
 .about_row {
     display: flex;
