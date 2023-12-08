@@ -1,11 +1,6 @@
 *,*::before, *::after{
     box-sizing: border-box;
 }
-/* font-family: 'Inter', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Sans', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Roboto', sans-serif; */
 body{
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -712,7 +707,6 @@ body{
 }
 .about_button {
     border: none;
-    cursor: pointer;
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -722,6 +716,11 @@ body{
 .back, .next {
     width: 73px;
     height: 73px;
+    border-radius: 10px;
+}
+.active{
+    border: rgb(12, 138, 138) solid 2px;
+    cursor: pointer;
 }
 .about_box-second {
     max-width: 711px;
@@ -849,8 +848,6 @@ body{
     .back, .next {
         width: 50px;
         height: 50px;
-        border-radius: 50%;
-        background-color: #6c6868;
     }
 }
 @media screen and (max-width: 1000px) {
